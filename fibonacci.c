@@ -13,7 +13,7 @@ int main () {
 	printf("\n *   ´´´´´´   *   ©S.Buch * ");
 	printf("\n ************************** \n\n");
 	
-	//Einlesen der n-ten Fibonacci Zahl ein
+	//Einlesen der n-ten Fibonacci Zahl
 	int f0=0,f1=1,n,i;
 	printf("\nBitte geben Sie für fn eine Zahl für n ein: ");
 	scanf("%d",&n);
