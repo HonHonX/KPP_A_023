@@ -3,7 +3,7 @@
 int main () {
 
 	/*
-	* Dieses Programm gibt die n-te Fibonacci Zahl ein
+	* Dieses Programm gibt die n-te Fibonacci Zahl aus
 	*/
 
 	printf("\n ************************** ");
