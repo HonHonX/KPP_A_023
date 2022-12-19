@@ -14,7 +14,7 @@ int main () {
 	printf("\n ************************** \n\n");
 	
 	//Einlesen der n-ten Fibonacci Zahl
-	int f0=0,f1=1,n,i;
+	int f0=0,f1=1,n,i,erg;
 	printf("\nBitte geben Sie für fn eine Zahl für n ein: ");
 	scanf("%d",&n);
 
@@ -24,9 +24,9 @@ int main () {
 	}
 
 	for (i=2;i<=n;i++) {
-		int tmp = f0+f1;
+		erg = f0+f1;
 		f0 = f1;
-		f1 = tmp;	
+		f1 = erg;	
 	}
 	printf("Die %d.Fibonacci Zahl ist %d",n,f1);
 
